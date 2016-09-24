@@ -1,2 +1,2 @@
-# TempReg-tensorflow
+# TemporalRegularityDetector-tensorflow
 Implementation of "Learning Temoporal Regularity in Video Sequences" with TensorFlow

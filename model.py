@@ -4,11 +4,15 @@ from ops import conv2d, deconv2d
 # CHECK 
 reg_weight = 0.01
 
-class FullyConvolutionalAutoencoder(object):
+class TemporalRegularityDetector(object):
+  """Fully convolutional autoencoder for temporal-regularity detection.
+     Reference:
+     [1] Learning Temporal Regularity in Video Sequences
+         (http://arxiv.org/abs/1604.04574)
+     [2] https://github.com/carpedm20/DCGAN-tensorflow/blob/master/ops.py
+  """
   def __init__(self, sess, input_shape):
-    """Fully convolutional autoencoder for temporal-
-    regularity detection. 
-
+    """
     Args:
       sess : TensorFlow session
       input_shape : Shape of the input data. [n, h, w, c]
