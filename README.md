@@ -1,7 +1,7 @@
 # TemporalRegularityDetector-tensorflow
 Implementation of "Learning Temoporal Regularity in Video Sequences" with TensorFlow for hexathon2016.
 
-(DEPRECATED version : The version we used is deprecated. We will upload re-arranged codes when we have a chance.)
+(DEPRECATED version : The version of TensorFlow we used is deprecated. We will upload re-arranged codes when we have a chance.)
 
 ```
 iwyoo@unist.ac.kr
